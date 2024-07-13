@@ -1,0 +1,105 @@
+/* Weather.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    background: #edeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s ease;
+  }
+  
+  .app {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    color: rgb(7, 7, 7);
+  }
+  
+  .search-box {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .loc-box {
+    margin: 20px 0;
+  }
+  
+  .loc {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .date {
+    font-size: 20px;
+  }
+  
+  .weather-box {
+    margin: 20px 0;
+  }
+  
+  .temp {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .weather {
+    font-size: 24px;
+  }
+  
+  /* Background classes for different weather conditions */
+ /* Background classes for different weather conditions */
+.clear {
+    background: url('/public/clear.jpg') no-repeat center center;
+    background-size: cover;
+
+}
+
+.cloudy {
+    background: url('/public/cloudy.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.rainy {
+    background: url('/public/rainy.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.snowy {
+    background: url('/public/snowy.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.drizzle {
+    background: url('/public/drizzle.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.thunderstorm {
+    background: url('/public/thunderstorm.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.Haze {
+    background: url('/public/haze.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.default {
+    background: url('/public/clear.jpg') no-repeat center center;
+    background-size: cover;
+}

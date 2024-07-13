@@ -1,0 +1,69 @@
+/* styles/Card.css */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
+    gap: 16px; /* Add spacing between cards */
+  }
+  
+  .cards {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    flex: 1 1 calc(25% - 32px); /* Responsive flex basis, adjust as needed */
+  }
+  
+  .cards:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-box {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .image-box img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .details {
+    text-align: left;
+  }
+  
+  .details p {
+    margin: 8px 0;
+  }
+  
+  .title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .author {
+    color: #555;
+  }
+  
+  .price {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .add-to-cart {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #ff5500;
+  }
+  

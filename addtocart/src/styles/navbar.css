@@ -1,0 +1,22 @@
+.nav-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+.cart i {
+  margin-right: 10px;
+}
+
+.warning {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
